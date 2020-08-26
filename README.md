@@ -124,6 +124,7 @@ or see the individual talks here:
 
 
 ## Best practices, lessons learned and cool use cases
+- [How SSENSE is using Apache Airflow to do Data Lineage on AWS](https://medium.com/ssense-tech/principled-data-engineering-part-ii-data-governance-30297abb2446) - Exploring the fundamental themes of architecting and governing a data lake on AWS using Apache Arflow.
 - [Testing in Airflow Part 2](https://medium.com/@chandukavar/testing-in-airflow-part-2-integration-tests-and-end-to-end-pipeline-tests-af0555cd1a82) - [Chandu Kavar](https://twitter.com/chandukavar) and [Sarang Shinde](https://www.linkedin.com/in/sarang-shinde-219a4873/) have explained Integration Tests and End-to-End Pipeline Tests.
 - [Upgrading & Scaling Airflow at Robinhood](https://robinhood.engineering/upgrading-scaling-airflow-at-robinhood-5b625dfaa2ee) - [Abishek Ray](https://www.linkedin.com/in/abhishek-ray-29210145/) describes how Robinhood tackled upgrading its production Airflow while minimizing downtime.
 - [We're all using Airflow wrong and how to fix it](https://medium.com/bluecore-engineering/were-all-using-airflow-wrong-and-how-to-fix-it-a56f14cb0753) - [Jessica Laughlin](https://www.jldlaughlin.com/) of [Bluecore](https://www.bluecore.com/) shares three engineering problems associated with the Airflow design and how to solve them by using the [KubernetesPodOperator](https://github.com/apache/airflow/blob/v1-10-stable/airflow/contrib/operators/kubernetes_pod_operator.py) in two design patterns.
